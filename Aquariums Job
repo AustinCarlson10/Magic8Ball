@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quality Fish and Corals</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet">
+  <style>
+    /* Tailwind CSS - Custom Styles */
+    @tailwind base;
+    @tailwind components;
+    @tailwind utilities;
+  </style>
+</head>
+<body class="h-full bg-gray-100">
+  <div class="bg-cover bg-center" style="background-image: url('https://i.ibb.co/bb6VBnD/Screenshot-2024-06-19-130835.png');">
+    <header class="absolute inset-x-0 top-0 z-50 bg-white">
+      <nav class="flex items-center justify-between p-6 lg:px-8" aria-label="Global">
+        <div class="flex lg:flex-1"></div>
+        <div class="flex lg:hidden">
+          <button type="button" class="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-black">
+            <span class="sr-only">Open main menu</span>
+            <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+            </svg>
+          </button>
+        </div>
+        <div class="hidden lg:flex lg:gap-x-12">
+          <a href="#" class="text-sm font-semibold leading-6 text-black">Product</a>
+          <a href="#" class="text-sm font-semibold leading-6 text-black">Features</a>
+          <a href="#" class="text-sm font-semibold leading-6 text-black">Marketplace</a>
+          <a href="#" class="text-sm font-semibold leading-6 text-black">Company</a>
+        </div>
+        <div class="hidden lg:flex lg:flex-1 lg:justify-end">
+          <a href="#" class="text-sm font-semibold leading-6 text-black">Log in <span aria-hidden="true">&rarr;</span></a>
+        </div>
+      </nav>
+    </header>
+
+    <div class="relative isolate px-6 pt-14 lg:px-8 text-white">
+      <div class="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80" aria-hidden="true">
+        <div class="relative left-[calc(50%-11rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-[#ff80b5] to-[#9089fc] opacity-30 sm:left-[calc(50%-30rem)] sm:w-[72.1875rem]" style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)"></div>
+      </div>
+      <div class="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56">
+        <div class="hidden sm:mb-8 sm:flex sm:justify-center">
+          <div class="relative rounded-full px-3 py-1 text-sm leading-6 text-gray-600 ring-1 ring-gray-900/10 hover:ring-gray-900/20">
+            Announcing our next round of funding. <a href="#" class="font-semibold text-indigo-600"><span class="absolute inset-0" aria-hidden="true"></span>Read more <span aria-hidden="true">&rarr;</span></a>
+          </div>
+        </div>
+        <div class="text-center">
+          <h1 class="text-4xl font-bold tracking-tight text-white sm:text-6xl">SUSTAINABLE SALTWATER AQUARIUMS</h1>
+          <p class="mt-6 text-lg leading-8 text-white">No matter your level of reefing, beginner to advanced, come speak with our specialists. We will gladly help any way we can.</p>
+          <div class="mt-10 grid grid-cols-2 gap-6">
+            <a href="#products" class="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white text-center shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Shop Now</a>
+            <a href="#" class="rounded-md bg-blue-600 px-3.5 py-2.5 text-sm font-semibold text-white text-center shadow-sm hover:bg-blue-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600">Book Maintenance</a>
+            <a href="#" class="rounded-md bg-green-600 px-3.5 py-2.5 text-sm font-semibold text-white text-center shadow-sm hover:bg-green-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-green-600">PAR Mapping</a>
+            <a href="#about-us" class="rounded-md bg-gray-600 px-3.5 py-2.5 text-sm font-semibold text-white text-center shadow-sm hover:bg-gray-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gray-600">Learn more</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
+
+ <!-- Products Section -->
+<div class="bg-white">
+  <div class="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
+    <h2 class="text-2xl font-bold tracking-tight text-gray-900">Customers also purchased</h2>
+
+    <div class="mt-6 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
+      <!-- Row 1 -->
+      <div class="group relative">
+        <div class="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-md bg-gray-200 lg:aspect-none group-hover:opacity-75 lg:h-80">
+          <img src="/mnt/data/image.png" alt="Tyree Pink Lemonade Acropora" class="h-full w-full object-cover object-center lg:h-full lg:w-full">
+        </div>
+        <div class="mt-4 flex justify-between">
+          <div>
+            <h3 class="text-sm text-gray-700">
+              <a href="#">
+                <span aria-hidden="true" class="absolute inset-0"></span>
+                Tyree Pink Lemonade Acropora
+              </a>
+            </h3>
+            <p class="mt-1 text-sm text-gray-500">Coral</p>
+          </div>
+          <p class="text-sm font-medium text-gray-900">$150.00</p>
+        </div>
+      </div>
+
+      <div class="group relative">
+        <div class="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-md bg-gray-200 lg:aspect-none group-hover:opacity-75 lg:h-80">
+          <img src="/mnt/data/image.png" alt="WWC Heartbreaker Acropora" class="h-full w-full object-cover object-center lg:h-full lg:w-full">
+        </div>
+        <div class="mt-4 flex justify-between">
+          <div>
+            <h3 class="text-sm text-gray-700">
+              <a href="#">
+                <span aria-hidden="true" class="absolute inset-0"></span>
+                WWC Heartbreaker Acropora
+              </a>
+            </h3>
+            <p class="mt-1 text-sm text-gray-500">Coral</p>
+          </div>
+          <p class="text-sm font-medium text-gray-900">$175.00</p>
+        </div>
+      </div>
+
+      <div class="group relative">
+        <div class="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-md bg-gray-200 lg:aspect-none group-hover:opacity-75 lg:h-80">
+          <img src="/mnt/data/image.png" alt="Malaysian Yellow/Gold God torch" class="h-full w-full object-cover object-center lg:h-full lg:w-full">
+        </div>
+        <div class="mt-4 flex justify-between">
+          <div>
+            <h3 class="text-sm text-gray-700">
+              <a href="#">
+                <span aria-hidden="true" class="absolute inset-0"></span>
+                Malaysian Yellow/Gold God torch
+              </a>
+            </h3>
+            <p class="mt-1 text-sm text-gray-500">Coral</p>
+          </div>
+          <p class="text-sm font-medium text-gray-900">$899.00</p>
+        </div>
+      </div>
+
+      <div class="group relative">
+        <div class="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-md bg-gray-200 lg:aspect-none group-hover:opacity-75 lg:h-80">
+          <img src="/mnt/data/image.png" alt="Yellow fungia plate with red tentacles" class="h-full w-full object-cover object-center lg:h-full lg:w-full">
+        </div>
+        <div class="mt-4 flex justify-between">
+          <div>
+            <h3 class="text-sm text-gray-700">
+              <a href="#">
+                <span aria-hidden="true" class="absolute inset-0"></span>
+                Yellow fungia plate with red tentacles
+              </a>
+            </h3>
+            <p class="mt-1 text-sm text-gray-500">Coral</p>
+          </div>
+          <p class="text-sm font-medium text-gray-900">$375.00</p>
+        </div>
+      </div>
+
+   
+
+      <div class="group relative">
+        <div class="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-md bg-gray-200 lg:aspect-none group-hover:opacity-75 lg:h-80">
+          <img src="https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg" alt="Basic Tee in black" class="h-full w-full object-cover object-center lg:h-full lg:w-full">
+        </div>
+        <div class="mt-4 flex justify-between">
+          <div>
+            <h3 class="text-sm text-gray-700">
+              <a href="#">
+                <span aria-hidden="true" class="absolute inset-0"></span>
+                Basic Tee
+              </a>
+            </h3>
+            <p class="mt-1 text-sm text-gray-500">Black</p>
+          </div>
+          <p class="text-sm font-medium text-gray-900">$35.00</p>
+        </div>
+      </div>
+
+      <div class="group relative">
+        <div class="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-md bg-gray-200 lg:aspect-none group-hover:opacity-75 lg:h-80">
+          <img src="https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg" alt="Basic Tee in black" class="h-full w-full object-cover object-center lg:h-full lg:w-full">
+        </div>
+        <div class="mt-4 flex justify-between">
+          <div>
+            <h3 class="text-sm text-gray-700">
+              <a href="#">
+                <span aria-hidden="true" class="absolute inset-0"></span>
+                Basic Tee
+              </a>
+            </h3>
+            <p class="mt-1 text-sm text-gray-500">Black</p>
+          </div>
+          <p class="text-sm font-medium text-gray-900">$35.00</p>
+        </div>
+      </div>
+   
+
+      <div class="group relative">
+        <div class="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-md bg-gray-200 lg:aspect-none group-hover:opacity-75 lg:h-80">
+          <img src="https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg" alt="Basic Tee in black" class="h-full w-full object-cover object-center lg:h-full lg:w-full">
+        </div>
+        <div class="mt-4 flex justify-between">
+          <div>
+            <h3 class="text-sm text-gray-700">
+              <a href="#">
+                <span aria-hidden="true" class="absolute inset-0"></span>
+                Basic Tee
+              </a>
+            </h3>
+            <p class="mt-1 text-sm text-gray-500">Black</p>
+          </div>
+          <p class="text-sm font-medium text-gray-900">$35.00</p>
+        </div>
+      </div>
+
+      <div class="group relative">
+        <div class="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-md bg-gray-200 lg:aspect-none group-hover:opacity-75 lg:h-80">
+          <img src="https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg" alt="Basic Tee in black" class="h-full w-full object-cover object-center lg:h-full lg:w-full">
+        </div>
+        <div class="mt-4 flex justify-between">
+          <div>
+            <h3 class="text-sm text-gray-700">
+              <a href="#">
+                <span aria-hidden="true" class="absolute inset-0"></span>
+                Basic Tee
+              </a>
+            </h3>
+            <p class="mt-1 text-sm text-gray-500">Black</p>
+          </div>
+          <p class="text-sm font-medium text-gray-900">$35.00</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+   <!-- About Us Section -->
+<div class="bg-gray-900 py-24 sm:py-32">
+  <div class="mx-auto max-w-7xl px-6 lg:px-8">
+    <div class="mx-auto max-w-4xl text-center">
+      <h2 class="text-4xl font-bold tracking-tight text-white sm:text-6xl">About Us</h2>
+      
+      <div class="mt-12">
+        <h3 class="text-3xl font-bold text-center text-white mb-4">All of Your Aquarium Needs</h3>
+        <p class="text-lg leading-8 text-gray-300">We can do it all. From simple fish only, to full blown reef tanks, we can help.</p>
+        <p class="text-lg leading-8 text-gray-300">We have bred seahorses and cuttlefish, and built public aquarium exhibits for giant pacific octopus.</p>
+        <p class="text-lg leading-8 text-gray-300">Allow your dreams to come true. Your only limitation is your imagination!</p>
+      </div>
+
+      <div class="mt-12 grid grid-cols-1 lg:grid-cols-2 gap-8">
+        <div class="text-center">
+          <h3 class="text-3xl font-bold text-white mb-4">A Commitment to Healthy Specimens</h3>
+          <p class="text-lg leading-8 text-gray-300 text-left">All of our corals go through extensive dips, medication, and are constantly being manicured and groomed daily to ensure we always offer the best specimens in the hobby. Our fish are selected from only the best collectors, and upon entry into our facility, the fish are placed into holding systems with copper, they are fed high quality food and medications to ensure our customers get the healthiest specimens. We always recommend quarantine and dipping prior to adding to your display to ensure your investment is protected. Ask our specialists about our procedures and recommendations. We gladly share what has worked for us!</p>
+        </div>
+
+        <div class="text-center">
+          <h3 class="text-3xl font-bold text-white mb-4">Customer Satisfaction</h3>
+          <p class="text-lg leading-8 text-gray-300 text-left">While we cannot guarantee all of our specimens will thrive in your aquarium, what we can guarantee is if you do lose something in a short time, come see us and we will do our best to make it right. We understand this hobby is expensive and things happen. Allow us to help you through your trials and errors, you are not alone. If your tank has a problem, we want to help! If your tank is happy, so are we.</p>
+        </div>
+      </div>
+
+      <div class="mt-12">
+        <h3 class="text-3xl font-bold text-center text-white mb-4">Shipping Procedure and Guarantee</h3>
+        <p class="text-lg leading-8 text-gray-300">We have several years of shipping everything from sharks and stingrays, to octopus, and corals. We have always had the same guarantee, our animals will arrive in wonderful condition, triple bagged and rubber banded to ensure no leaky bags. We use 1" thick formed styrofoam boxes with an outside cardboard box to ensure there is minimal temperature fluctuation and is well protected from the outside weather. Depending on weather we may add heat packs or cold packs, but this is only in extreme weather. In the unfortunate time of a loss during shipping, we require an email with picture of the dead animal, within 2 hours of delivery stamp, and you will receive a full credit to be used for your next purchase. On any replacement, you only pay the shipping. In the unfortunate event there is a delay in the shipping company, we cannot be held responsible. We can offer another piece at an extreme discount, but unfortunately no shipping company at this time offers a full guarantee on overnight shipping. We ship on Tuesday, Wednesday, and Thursday for next day delivery by 2pm. If there is any problems with receiving your package by said time, immediately contact us and we will try our best to help facilitate any problems with the shipping company.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+        <!-- Contact Sales Section -->
+        <div class="isolate bg-white px-6 py-24 sm:py-32 lg:px-8">
+          <div class="absolute inset-x-0 top-[-10rem] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[-20rem]" aria-hidden="true">
+            <div class="relative left-1/2 -z-10 aspect-[1155/678] w-[36.125rem] max-w-none -translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-[#ff80b5] to-[#9089fc] opacity-30 sm:left-[calc(50%-40rem)] sm:w-[72.1875rem]" style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)"></div>
+          </div>
+          <div class="mx-auto max-w-2xl text-center">
+            <h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Contact sales</h2>
+            <p class="mt-2 text-lg leading-8 text-gray-600">Questions, Comments, Concerns? Contact us with any of your needs and we will respond as soon as possible.</p>
+          </div>
+          <form action="#" method="POST" class="mx-auto mt-16 max-w-xl sm:mt-20">
+            <div class="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2">
+              <div>
+                <label for="first-name" class="block text-sm font-semibold leading-6 text-gray-900">First name</label>
+                <div class="mt-2.5">
+                  <input type="text" name="first-name" id="first-name" autocomplete="given-name" class="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6">
+                </div>
+              </div>
+              <div>
+                <label for="last-name" class="block text-sm font-semibold leading-6 text-gray-900">Last name</label>
+                <div class="mt-2.5">
+                  <input type="text" name="last-name" id="last-name" autocomplete="family-name" class="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6">
+                </div>
+              </div>
+              <div class="sm:col-span-2">
+                <label for="company" class="block text-sm font-semibold leading-6 text-gray-900">Company</label>
+                <div class="mt-2.5">
+                  <input type="text" name="company" id="company" autocomplete="organization" class="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6">
+                </div>
+              </div>
+              <div class="sm:col-span-2">
+                <label for="email" class="block text-sm font-semibold leading-6 text-gray-900">Email</label>
+                <div class="mt-2.5">
+                  <input type="email" name="email" id="email" autocomplete="email" class="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6">
+                </div>
+              </div>
+              <div class="sm:col-span-2">
+                <label for="phone-number" class="block text-sm font-semibold leading-6 text-gray-900">Phone number</label>
+                <div class="relative mt-2.5">
+                  <div class="absolute inset-y-0 left-0 flex items-center">
+                    <label for="country" class="sr-only">Country</label>
+                    <select id="country" name="country" class="h-full rounded-md border-0 bg-transparent bg-none py-0 pl-4 pr-9 text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm">
+                      <option>US</option>
+                      <option>CA</option>
+                      <option>EU</option>
+                    </select>
+                    <svg class="pointer-events-none absolute right-3 top-0 h-full w-5 text-gray-400" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                      <path fill-rule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z" clip-rule="evenodd" />
+                    </svg>
+                  </div>
+                  <input type="tel" name="phone-number" id="phone-number" autocomplete="tel" class="block w-full rounded-md border-0 px-3.5 py-2 pl-20 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6">
+                </div>
+              </div>
+              <div class="sm:col-span-2">
+                <label for="message" class="block text-sm font-semibold leading-6 text-gray-900">Message</label>
+                <div class="mt-2.5">
+                  <textarea name="message" id="message" rows="4" class="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"></textarea>
+                </div>
+              </div>
+              <div class="flex gap-x-4 sm:col-span-2">
+                <div class="flex h-6 items-center">
+                  <!-- Enabled: "bg-indigo-600", Not Enabled: "bg-gray-200" -->
+                  <button type="button" class="flex w-8 flex-none cursor-pointer rounded-full bg-gray-200 p-px ring-1 ring-inset ring-gray-900/5 transition-colors duration-200 ease-in-out focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600" role="switch" aria-checked="false" aria-labelledby="switch-1-label">
+                    <span class="sr-only">Agree to policies</span>
+                    <!-- Enabled: "translate-x-3.5", Not Enabled: "translate-x-0" -->
+                    <span aria-hidden="true" class="h-4 w-4 translate-x-0 transform rounded-full bg-white shadow-sm ring-1 ring-gray-900/5 transition duration-200 ease-in-out"></span>
+                  </button>
+                </div>
+                <label class="text-sm leading-6 text-gray-600" id="switch-1-label">
+                  By selecting this, you agree to our
+                  <a href="#" class="font-semibold text-indigo-600">privacy&nbsp;policy</a>.
+                </label>
+              </div>
+            </div>
+            <div class="mt-10">
+              <button type="submit" class="block w-full rounded-md bg-indigo-600 px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Let's talk</button>
+            </div>
+          </form>
+        </div>
+
+        <!-- Footer -->
+        <footer class="bg-teal-600 p-4 text-center text-white">
+          <p>&copy; 2024 Quality Fish and Corals. All rights reserved.</p>
+        </footer>
+      </div>
+    </div>
+  </main>
+</body>
+</html>
