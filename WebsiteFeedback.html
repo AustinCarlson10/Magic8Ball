@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Smart Website Analyzer</title>
+  <style>
+    :root {
+      --main-bg: #f4f7fa;
+      --card-bg: #ffffff;
+      --accent: #0077cc;
+      --accent-dark: #005fa3;
+      --text: #333;
+      --muted: #888;
+      --radius: 12px;
+      --shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: var(--main-bg);
+      color: var(--text);
+      padding: 40px 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    h1 {
+      font-size: 2.5em;
+      color: var(--accent);
+      margin-bottom: 20px;
+    }
+
+    .container {
+      max-width: 800px;
+      width: 100%;
+      background: var(--card-bg);
+      border-radius: var(--radius);
+      padding: 30px;
+      box-shadow: var(--shadow);
+    }
+
+    label {
+      font-weight: bold;
+      margin-bottom: 10px;
+      display: block;
+    }
+
+    textarea {
+      width: 100%;
+      height: 150px;
+      padding: 15px;
+      font-size: 1em;
+      border: 1px solid #ccc;
+      border-radius: var(--radius);
+      resize: vertical;
+      margin-bottom: 20px;
+      background: #fdfdfd;
+    }
+
+    button {
+      padding: 12px 20px;
+      font-size: 1em;
+      border: none;
+      border-radius: var(--radius);
+      background-color: var(--accent);
+      color: #fff;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    button:hover {
+      background-color: var(--accent-dark);
+    }
+
+    #report {
+      margin-top: 30px;
+      padding: 20px;
+      background: #f9f9f9;
+      border-left: 5px solid var(--accent);
+      border-radius: var(--radius);
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    footer {
+      margin-top: 40px;
+      font-size: 0.9em;
+      color: var(--muted);
+    }
+
+    @media (max-width: 600px) {
+      .container {
+        padding: 20px;
+      }
+
+      h1 {
+        font-size: 2em;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Smart Website Analyzer</h1>
+  <div class="container">
+    <label for="contentInput">Paste Your Homepage Content or Business Description</label>
+    <textarea id="contentInput" placeholder="Example: We wash windows for residential and commercial buildings..."></textarea>
+    <button onclick="analyzeContent()">Analyze Website</button>
+
+    <div id="report" style="display:none;"></div>
+  </div>
+
+  <footer>&copy; 2025 Smart Web Tools</footer>
+
+  <script>
+    function analyzeContent() {
+      const content = document.getElementById('contentInput').value.toLowerCase();
+      const report = document.getElementById('report');
+      let analysis = '';
+      let suggestions = [];
+
+      // Simple keyword analysis
+      if (content.includes('window') && content.includes('wash')) {
+        analysis = "This appears to be a window washing service.";
+        suggestions.push("Use a full-width hero image showing your work.");
+        suggestions.push("Add a call-to-action button like 'Get a Free Estimate'.");
+        suggestions.push("Display before/after photos or client reviews.");
+      } else if (content.includes('car') && content.includes('ac')) {
+        analysis = "This looks like a car A/C repair or automation service.";
+        suggestions.push("Add a form for car make, model, and issue.");
+        suggestions.push("Highlight fast service times and certifications.");
+        suggestions.push("Display customer testimonials prominently.");
+      } else if (content.includes('lawn') || content.includes('landscape')) {
+        analysis = "This might be a lawn care or landscaping business.";
+        suggestions.push("Show lush photos of lawns or gardens.");
+        suggestions.push("Let users book a quote right from the hero section.");
+        suggestions.push("List all services with icons.");
+      } else if (content.includes('ecommerce') || content.includes('shop')) {
+        analysis = "This appears to be an online store.";
+        suggestions.push("Feature top products on the homepage.");
+        suggestions.push("Add a prominent search bar.");
+        suggestions.push("Use trust signals like reviews and secure checkout.");
+      } else {
+        analysis = "Could not identify a clear business category.";
+        suggestions.push("Clarify your business purpose in a headline.");
+        suggestions.push("Add a strong visual (image or icon) and action button.");
+        suggestions.push("Include benefits or features in bullet form.");
+      }
+
+      // Output analysis
+      report.style.display = "block";
+      report.innerHTML = `
+        <h2>Website Analysis</h2>
+        <p><strong>Identified Purpose:</strong> ${analysis}</p>
+        <h3>Suggested Improvements:</h3>
+        <ul>${suggestions.map(s => `<li>${s}</li>`).join('')}</ul>
+      `;
+    }
+  </script>
+
+</body>
+</html>
